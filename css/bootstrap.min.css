@@ -1,0 +1,83 @@
+/* Resetting default browser styles */
+
+/* Set default font and remove text size adjustment */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /* Remove margin from body */
+  body {
+    margin: 0;
+  }
+  
+  /* Ensure certain elements are displayed as block */
+  article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+  }
+  
+  /* Set default styles for certain media elements */
+  audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  audio:not([controls]) {
+    display: none;
+  }
+  [hidden], template {
+    display: none;
+  }
+  
+  /* Basic styling for anchor tags */
+  a {
+    background-color: transparent;
+  }
+  a:active, a:hover {
+    outline: 0;
+  }
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  
+  /* Styling for various text elements */
+  abbr[title] {
+    border-bottom: 1px dotted;
+  }
+  b, strong {
+    font-weight: bold;
+  }
+  dfn {
+    font-style: italic;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  mark {
+    background: #ff0;
+    color: #000;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  img {
+    border: 0;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  
